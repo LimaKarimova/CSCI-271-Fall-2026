@@ -14,6 +14,6 @@ int main() {
 
     cin >> name;
 
-    cout << "Hello, " << name << "!\n";
+    cout << "Nice to meet you, " << name << "!\n";
     return 0;
 }
