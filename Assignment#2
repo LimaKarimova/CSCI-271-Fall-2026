@@ -1,0 +1,21 @@
+// CSCI-271-Fall-2026
+// Assignment 2
+
+#include <iostream> 
+#include <string>
+
+using namespace std;
+
+int main() {
+    string name; // Declares a placeholder for string (name/set of letters)
+    int age; // Declares a placeholder for a number (age)
+    cout << "Hello! What's your name? "; // Prints a string asking the user about their name
+    cin >> name; // Sets the input of the user as a new value of the name string
+    cout << "How old are you? "; // Prints a string asking the user about their age
+    cin >> age;// Sets the input of the user as a new value of the age string
+
+    cout << "Hiii! My name is " << name << "! I am "<< age << " years old!"; // Prints out a line that holds 
+    //both name and age of the user. By adding the "<<" we connect parts of the code so the output
+    //comes out as one whole line.  
+    return 0;
+}
